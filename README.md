@@ -161,6 +161,8 @@ Exploring and reporting on exposure findings.
 
 **Key insight:** new SEM dashboards automatically append `Active = True` to conditions and are stored in `sn_sec_sem_dashboard`.
 
+![SEM Workspace landing page](screenshots/analyst-user.png)
+[Custom CISA KEV dashboard creation](screenshots/analyst-kev-dash.png)
 *[Screenshot: SEM Workspace landing page + custom CISA KEV dashboard]*
 
 ### Section 2: Remediation Owner
@@ -176,6 +178,7 @@ Working assigned findings through the remediation lifecycle.
 
 **Key insight:** for *new* USEM installs the `itil` role no longer inherits the remediation owner roles; those must be assigned to remediation team groups. Upgrades keep the old inheritance.
 
+![Remediation Task workflow: Assessed remediation tasks and initiated exception request](screenshots/remediation-user.png)
 *[Screenshot: Remediation Task workflow + exception request]*
 
 ### Section 3: Approver
@@ -189,6 +192,7 @@ Reviewing and dispositioning exception requests.
 
 **Key insight:** exception approvals can be routed by scenario (false positive, deferral, risk reduction) and each flavor can carry its own tailored questionnaire for the requesting team.
 
+![Approval record + approval history](screenshots/approval-user.png)
 *[Screenshot: Approval record + approval history]*
 
 ### Section 4: USEM Administrator
