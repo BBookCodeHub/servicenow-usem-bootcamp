@@ -1,11 +1,12 @@
 # ServiceNow Unified Security Exposure Management (USEM) Bootcamp
 
-> Hands-on lab completion covering the next generation of ServiceNow Vulnerability Response (VR), reworked into a single unified exposure management experience.
+Hands-on lab covering the next generation of ServiceNow Vulnerability Response (VR), reworked into a single unified exposure management experience.
 
-**Format:** On-demand SecOps training + guided lab (~1h 30m)
-**Release studied:** USEM / VR v30.2.x (Jan 20, 2026 Store App release)
-**Completed:** *[add date]*
+**Format:** On-demand SecOps training + guided lab
+
 **Course:** [Unified Security Exposure Management (USEM) Bootcamp — ServiceNow University](https://learning.servicenow.com/lxp/en/security-operations/unified-security-exposure-management-usem-bootcamp?course_id=3024094747173e1009e1ce44846d43d1&id=learning_course_prev)
+
+**Completed:** *July 3, 2026*
 
 ---
 
