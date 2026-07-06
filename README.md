@@ -161,9 +161,20 @@ Exploring and reporting on exposure findings.
 
 **Key insight:** new SEM dashboards automatically append `Active = True` to conditions and are stored in `sn_sec_sem_dashboard`.
 
-**SEM Workspace landing page & Custom CISA KEV dashboard creation**
-![SEM Workspace landing page](screenshots/analyst-user.png)
-![Custom CISA KEV dashboard creation](screenshots/analyst-kev-dash.png)
+**SEM Workspace Insights:**
+<table>
+  <tr>
+    <td align="center">
+      <img src="screenshots/analyst-user.png" width="800"><br>
+      <b>SEM Workspace landing page</b>
+    </td>
+    <td align="center">
+      <img src="screenshots/analyst-kev-dash.png" width="800"><br>
+      <b>Custom CISA KEV dashboard creation</b>
+    </td>
+  </tr>
+</table>
+
 
 ### Section 2: Remediation Owner
 
@@ -178,9 +189,19 @@ Working assigned findings through the remediation lifecycle.
 
 **Key insight:** for *new* USEM installs the `itil` role no longer inherits the remediation owner roles; those must be assigned to remediation team groups. Upgrades keep the old inheritance.
 
-**Remediation Task workflow: Assessed remediation tasks and initiated exception request**
-![Remediation Task workflow: Assessed remediation tasks and initiated exception request](screenshots/remediation-user.png)
-
+**Remediation Task workflow:**
+<table>
+  <tr>
+    <td align="center">
+      <img src="screenshots/remediation-user.png" width="800"><br>
+      <b>Assessed remediation tasks</b>
+    </td>
+    <td align="center">
+      <img src="screenshots/remediation-user2.png" width="800"><br>
+      <b>Initiated exception request</b>
+    </td>
+  </tr>
+</table>
 
 ### Section 3: Approver
 
@@ -194,7 +215,12 @@ Reviewing and dispositioning exception requests.
 **Key insight:** exception approvals can be routed by scenario (false positive, deferral, risk reduction) and each flavor can carry its own tailored questionnaire for the requesting team.
 
 **Approval record + Approval history**
-![Approval record + approval history](screenshots/approval-user.png)
+<table>
+  <tr>
+    <td align="center">
+      <img src="screenshots/approval-user.png" width="600"><br>
+      <b>Approval status</b>
+</table>
 
 
 ### Section 4: USEM Administrator
@@ -227,19 +253,6 @@ A few things worth calling out from this section:
 - Exception, risk-acceptance, and approval workflows
 - Reporting and dashboard/visualization design across multiple finding types
 - ServiceNow SecOps platform administration and role-based access
-
----
-
-## Proof of Completion
-
-Screenshots from working each persona are included in this repo:
-
-| Persona | Evidence |
-|---|---|
-| Security Analyst | *[link]* |
-| Remediation Owner | *[link]* |
-| Approver | *[link]* |
-| USEM Administrator | *[link]* |
 
 ---
 
