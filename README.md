@@ -161,9 +161,9 @@ Exploring and reporting on exposure findings.
 
 **Key insight:** new SEM dashboards automatically append `Active = True` to conditions and are stored in `sn_sec_sem_dashboard`.
 
+**SEM Workspace landing page & Custom CISA KEV dashboard creation**
 ![SEM Workspace landing page](screenshots/analyst-user.png)
-[Custom CISA KEV dashboard creation](screenshots/analyst-kev-dash.png)
-*[Screenshot: SEM Workspace landing page + custom CISA KEV dashboard]*
+![Custom CISA KEV dashboard creation](screenshots/analyst-kev-dash.png)
 
 ### Section 2: Remediation Owner
 
@@ -178,8 +178,9 @@ Working assigned findings through the remediation lifecycle.
 
 **Key insight:** for *new* USEM installs the `itil` role no longer inherits the remediation owner roles; those must be assigned to remediation team groups. Upgrades keep the old inheritance.
 
+**Remediation Task workflow: Assessed remediation tasks and initiated exception request**
 ![Remediation Task workflow: Assessed remediation tasks and initiated exception request](screenshots/remediation-user.png)
-*[Screenshot: Remediation Task workflow + exception request]*
+
 
 ### Section 3: Approver
 
@@ -192,8 +193,9 @@ Reviewing and dispositioning exception requests.
 
 **Key insight:** exception approvals can be routed by scenario (false positive, deferral, risk reduction) and each flavor can carry its own tailored questionnaire for the requesting team.
 
+**Approval record + Approval history**
 ![Approval record + approval history](screenshots/approval-user.png)
-*[Screenshot: Approval record + approval history]*
+
 
 ### Section 4: USEM Administrator
 
@@ -213,8 +215,6 @@ A few things worth calling out from this section:
 - **Classification rules feed assignment rules.** The clean *Linux Resources* classification from 4.4 is reused directly as the 4.5 assignment condition, so routing keys off normalized data instead of brittle keyword matching.
 - **Weighted risk inputs must total exactly 100%**, or the score preview is disabled, which is what forced the 80→70% plus 10% rebalance in 4.6.
 - **Cross-exposure reporting works** because USEM visualizations read normalized fields shared across the VIT / CVIT / AVIT / CTR finding tables plus the VR Aggregate Report Framework.
-
-*[Screenshot: Administration surface + each configured rule/widget]*
 
 ---
 
