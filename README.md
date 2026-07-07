@@ -8,6 +8,13 @@ Hands-on lab covering the next generation of ServiceNow Vulnerability Response (
 
 **Completed:** *July 3, 2026*
 
+![ServiceNow](https://img.shields.io/badge/ServiceNow-Platform-green?logo=servicenow)
+![Security Exposure Management](https://img.shields.io/badge/Security%20Exposure-Management-red)
+![Vulnerability Management](https://img.shields.io/badge/Vulnerability-Management-orange)
+![Remediation](https://img.shields.io/badge/Security-Remediation-success)
+![Risk Management](https://img.shields.io/badge/Risk-Management-yellowgreen)
+![Cybersecurity](https://img.shields.io/badge/Cybersecurity-Operations-purple)
+
 ---
 
 ## Overview
